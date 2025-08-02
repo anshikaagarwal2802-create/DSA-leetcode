@@ -20,7 +20,7 @@ public:
         }
         return(i+1);
     }
-    int main()
+     int main()
 
     {
         Solution obj1;
