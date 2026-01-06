@@ -1,13 +1,12 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int xor1=0;
-        int n=nums.size();
-        for(int i=0;i<n;i++)
+        int xorr=0;
+        for(int i=0;i<nums.size();i++)
         {
-            xor1=xor1^nums[i];
+            xorr=xorr^nums[i];
+
         }
-        return xor1;
-        
+        return xorr;
     }
 };
