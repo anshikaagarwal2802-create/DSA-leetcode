@@ -7,10 +7,9 @@ public:
         {
             if(nums[mid]==0)
             {
-                swap(nums[mid],nums[low]);
+                swap(nums[low],nums[mid]);
                 low++;
                 mid++;
-
 
             }
             else if(nums[mid]==1)
@@ -22,6 +21,7 @@ public:
             {
                 swap(nums[mid],nums[high]);
                 high--;
+
             }
         }
         
